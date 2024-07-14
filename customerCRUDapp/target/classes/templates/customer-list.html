@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer List</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<center>
+    <h1>Customer List</h1>
+    <button onclick="window.location.href='addCustomer.html'">Add New Customer</button>
+    <button id="logoutBtn">Logout</button>
+    <table id="customerTable">
+        <thead>
+            <tr>
+                <th>First Name</th><br>&nbsp&nbsp&nbsp
+                <th>Last Name</th><br>
+                <th>Street</th><br>
+                <th>Address</th><br>
+                <th>City</th><br>
+                <th>State</th><br>
+                <th>Email</th><br>
+                <th>Phone</th><br>
+                <th>Actions</th><br>
+            </tr>
+        </thead>
+        <tbody id="customerTableBody">
+        </tbody>
+    </table>
+    </center>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/customer-list.js"></script>
+</body>
+</html>
